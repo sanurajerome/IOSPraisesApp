@@ -14,7 +14,7 @@ struct ContentView: View {
             
             NavigationStack{
                 List{
-                    Section("Select the Praises")
+                    Section("Select the Praises ")
                     {
                         NavigationLink{
                             ItemRow()
