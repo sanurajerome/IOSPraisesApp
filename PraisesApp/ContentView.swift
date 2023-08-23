@@ -25,15 +25,48 @@ struct ContentView: View {
                             Versus101to200()
                         } label: {                        Text("101 - 200")
                         }
-                        Text("201 - 300")
-                        Text("301 - 400")
-                        Text("401 - 500")
-                        Text("501 - 600")
-                        Text("601 - 700")
-                        Text("701 - 800")
-                        Text("801 - 900")
-                        Text("901 - 1000")
-                    }
+                        NavigationLink{
+                            Ver201to300()
+                        } label: {
+                            Text("201 - 300")
+                        }
+                        NavigationLink{
+                            Ver301to400()
+                        } label: {
+                            Text("301 - 400")
+                        }
+                        NavigationLink{
+                            Ver401_500()
+                        } label: {
+                            Text("401 - 500")
+                        }
+                        NavigationLink{
+                            Ver501to600()
+                        } label: {
+                            Text("501 - 600")
+                        }
+                        NavigationLink{
+                            Ver601_700()
+                        } label: {
+                            Text("601 - 700")
+                        }
+                        NavigationLink{
+                            Ver701to800()
+                        } label: {
+                            Text("701 - 800")
+                        }
+                        NavigationLink{
+                            Ver801to900()
+                        } label: {
+                            
+                            Text("801 - 900")
+                        }
+                        NavigationLink{
+                            Ver901to1000()
+                        } label: {
+                            Text("901 - 1000")
+                        }
+                        }
                     .font(.headline)
                     
                 }
