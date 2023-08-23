@@ -21,8 +21,10 @@ struct ContentView: View {
                         } label: {
                             Text("1 - 100")
                         }
-                        
-                        Text("101 - 200")
+                        NavigationLink{
+                            Versus101to200()
+                        } label: {                        Text("101 - 200")
+                        }
                         Text("201 - 300")
                         Text("301 - 400")
                         Text("401 - 500")

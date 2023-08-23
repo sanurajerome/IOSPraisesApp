@@ -19,6 +19,15 @@
 		BD49B95E2A9268FC00DFFE8D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B95C2A9268FC00DFFE8D /* Menu.swift */; };
 		BD49B9602A92690800DFFE8D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BD49B95F2A92690800DFFE8D /* menu.json */; };
 		BD49B9622A926FF900DFFE8D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9612A926FF900DFFE8D /* ItemRow.swift */; };
+		BD49B9682A96A6E200DFFE8D /* Versus101to200.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9672A96A6E200DFFE8D /* Versus101to200.swift */; };
+		BD49B96A2A96A78500DFFE8D /* Ver201to300.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9692A96A78500DFFE8D /* Ver201to300.swift */; };
+		BD49B96C2A96A7B200DFFE8D /* Ver301to400.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B96B2A96A7B200DFFE8D /* Ver301to400.swift */; };
+		BD49B96E2A96A7D000DFFE8D /* Ver401-500.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B96D2A96A7D000DFFE8D /* Ver401-500.swift */; };
+		BD49B9702A96A7F400DFFE8D /* Ver501to600.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B96F2A96A7F400DFFE8D /* Ver501to600.swift */; };
+		BD49B9722A96A80A00DFFE8D /* Ver601-700.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9712A96A80A00DFFE8D /* Ver601-700.swift */; };
+		BD49B9742A96A82600DFFE8D /* Ver701to800.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9732A96A82600DFFE8D /* Ver701to800.swift */; };
+		BD49B9762A96A83E00DFFE8D /* Ver801to900.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9752A96A83E00DFFE8D /* Ver801to900.swift */; };
+		BD49B9782A96A85400DFFE8D /* Ver901to1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD49B9772A96A85400DFFE8D /* Ver901to1000.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,15 @@
 		BD49B95C2A9268FC00DFFE8D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = ../../../Downloads/idine/Menu.swift; sourceTree = "<group>"; };
 		BD49B95F2A92690800DFFE8D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
 		BD49B9612A926FF900DFFE8D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		BD49B9672A96A6E200DFFE8D /* Versus101to200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Versus101to200.swift; sourceTree = "<group>"; };
+		BD49B9692A96A78500DFFE8D /* Ver201to300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver201to300.swift; sourceTree = "<group>"; };
+		BD49B96B2A96A7B200DFFE8D /* Ver301to400.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver301to400.swift; sourceTree = "<group>"; };
+		BD49B96D2A96A7D000DFFE8D /* Ver401-500.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ver401-500.swift"; sourceTree = "<group>"; };
+		BD49B96F2A96A7F400DFFE8D /* Ver501to600.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver501to600.swift; sourceTree = "<group>"; };
+		BD49B9712A96A80A00DFFE8D /* Ver601-700.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ver601-700.swift"; sourceTree = "<group>"; };
+		BD49B9732A96A82600DFFE8D /* Ver701to800.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver701to800.swift; sourceTree = "<group>"; };
+		BD49B9752A96A83E00DFFE8D /* Ver801to900.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver801to900.swift; sourceTree = "<group>"; };
+		BD49B9772A96A85400DFFE8D /* Ver901to1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ver901to1000.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,15 @@
 				BD49B92F2A9267E700DFFE8D /* PraisesAppApp.swift */,
 				BD49B9312A9267E700DFFE8D /* ContentView.swift */,
 				BD49B9612A926FF900DFFE8D /* ItemRow.swift */,
+				BD49B9672A96A6E200DFFE8D /* Versus101to200.swift */,
+				BD49B9692A96A78500DFFE8D /* Ver201to300.swift */,
+				BD49B96B2A96A7B200DFFE8D /* Ver301to400.swift */,
+				BD49B96D2A96A7D000DFFE8D /* Ver401-500.swift */,
+				BD49B96F2A96A7F400DFFE8D /* Ver501to600.swift */,
+				BD49B9712A96A80A00DFFE8D /* Ver601-700.swift */,
+				BD49B9732A96A82600DFFE8D /* Ver701to800.swift */,
+				BD49B9752A96A83E00DFFE8D /* Ver801to900.swift */,
+				BD49B9772A96A85400DFFE8D /* Ver901to1000.swift */,
 				BD49B9592A92689900DFFE8D /* Helper.swift */,
 				BD49B95C2A9268FC00DFFE8D /* Menu.swift */,
 				BD49B95B2A9268FC00DFFE8D /* Order.swift */,
@@ -274,10 +301,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD49B9322A9267E700DFFE8D /* ContentView.swift in Sources */,
+				BD49B9742A96A82600DFFE8D /* Ver701to800.swift in Sources */,
 				BD49B9302A9267E700DFFE8D /* PraisesAppApp.swift in Sources */,
+				BD49B96C2A96A7B200DFFE8D /* Ver301to400.swift in Sources */,
+				BD49B9762A96A83E00DFFE8D /* Ver801to900.swift in Sources */,
+				BD49B96A2A96A78500DFFE8D /* Ver201to300.swift in Sources */,
+				BD49B9682A96A6E200DFFE8D /* Versus101to200.swift in Sources */,
+				BD49B96E2A96A7D000DFFE8D /* Ver401-500.swift in Sources */,
 				BD49B95D2A9268FC00DFFE8D /* Order.swift in Sources */,
+				BD49B9722A96A80A00DFFE8D /* Ver601-700.swift in Sources */,
 				BD49B9622A926FF900DFFE8D /* ItemRow.swift in Sources */,
+				BD49B9782A96A85400DFFE8D /* Ver901to1000.swift in Sources */,
 				BD49B95A2A92689A00DFFE8D /* Helper.swift in Sources */,
+				BD49B9702A96A7F400DFFE8D /* Ver501to600.swift in Sources */,
 				BD49B95E2A9268FC00DFFE8D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
