@@ -33,10 +33,9 @@ struct ItemRow: View {
     
                 
             }
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/) .scrollContentBackground(.hidden)
-           
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
-        
+            
     }
         }
         

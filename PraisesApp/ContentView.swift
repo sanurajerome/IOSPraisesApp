@@ -74,8 +74,7 @@ struct ContentView: View {
                             
                         }
                         
-                        .navigationTitle("Praises")
-                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.938, green: 0.921, blue: 0.899)/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.937, green: 0.921, blue: 0.899)/*@END_MENU_TOKEN@*/)
                         .scrollContentBackground(.hidden)
                         
                         
