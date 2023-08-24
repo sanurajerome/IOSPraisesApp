@@ -30,9 +30,12 @@ struct ItemRow: View {
                     
                     
                 }
+    
                 
             }
-            
+            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/) .scrollContentBackground(.hidden)
+           
+        
         
     }
         }
