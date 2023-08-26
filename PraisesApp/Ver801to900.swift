@@ -30,12 +30,18 @@ struct Ver801to900: View {
                     
                     
                 }
+                .font(.custom("Avenit Next Regular", size: 14))
+                NavigationLink{
+                    Ver901to1000()
+                } label: {
+                    Text("901 - 1000")
+                }
                 
             }
-            
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
-    }}
-
+    }
+}
 struct Ver801to900_Previews: PreviewProvider {
     static var previews: some View {
         Ver801to900()

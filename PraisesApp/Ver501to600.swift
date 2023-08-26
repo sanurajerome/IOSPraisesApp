@@ -30,11 +30,18 @@ struct Ver501to600: View {
                     
                     
                 }
+                .font(.custom("Avenit Next Regular", size: 14))
+                NavigationLink{
+                    Ver601_700()
+                } label: {
+                    Text("601 - 700")
+                }
                 
             }
-            
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
-    }}
+    }
+}
 
 struct Ver501to600_Previews: PreviewProvider {
     static var previews: some View {

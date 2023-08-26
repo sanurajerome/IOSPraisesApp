@@ -30,11 +30,13 @@ struct Ver901to1000: View {
                     
                     
                 }
-                
+                .font(.custom("Avenit Next Regular", size: 14))
+               
             }
-            
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
-    }}
+    }
+}
 
 struct Ver901to1000_Previews: PreviewProvider {
     static var previews: some View {

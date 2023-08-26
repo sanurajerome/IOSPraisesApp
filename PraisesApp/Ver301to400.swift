@@ -30,13 +30,18 @@ struct Ver301to400: View {
                     
                     
                 }
+                .font(.custom("Avenit Next Regular", size: 14))
+                NavigationLink{
+                    Ver401_500()
+                } label: {
+                    Text("401 - 500")
+                }
                 
             }
-            
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
     }
 }
-
 struct Ver301to400_Previews: PreviewProvider {
     static var previews: some View {
         Ver301to400()

@@ -13,7 +13,7 @@ struct ContentView: View {
             NavigationStack{
                                    
                     VStack{
-                        Image("Spirit and Truth Worship - Pocket Fuel Daily Devotional").resizable().frame(width: 450.0, height: 300.0).scaledToFit().cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
+                        Image("Spirit and Truth Worship - Pocket Fuel Daily Devotional").resizable().frame(width: 450.0, height: 350.0).scaledToFit().cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         
                         List{
                             Section("Select the Praises ")

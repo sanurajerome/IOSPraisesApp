@@ -29,14 +29,17 @@ struct ItemRow: View {
                     }
                     
                     
+                }.font(.custom("Avenit Next Regular", size: 14))
+                NavigationLink{
+                    Versus101to200()
+                } label: {
+                    Text("101 - 200")
                 }
-    
-                
             }
-            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         
-            
+            .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
     }
+  
         }
         
 
