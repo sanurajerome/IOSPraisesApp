@@ -36,7 +36,11 @@ struct Ver801to900: View {
                 } label: {
                     Text("901 - 1000")
                 }
-                
+                NavigationLink{
+                    ContentView()
+                } label: {
+                    Text("Home")
+                }
             }
             .background(Color(red: 0.861, green: 0.848, blue: 0.837, opacity: 0.584)).scrollContentBackground(.hidden)
         

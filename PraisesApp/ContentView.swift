@@ -11,8 +11,11 @@ struct ContentView: View {
     var body: some View {
        
             NavigationStack{
-                                   
+                      
+                
+                
                     VStack{
+                       
                         Image("Spirit and Truth Worship - Pocket Fuel Daily Devotional").resizable().frame(width: 450.0, height: 350.0).scaledToFit().cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         
                         List{
@@ -81,8 +84,8 @@ struct ContentView: View {
                     }
                     .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.941, green: 0.921, blue: 0.903)/*@END_MENU_TOKEN@*/)
             }
-            
-            }
+        
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
